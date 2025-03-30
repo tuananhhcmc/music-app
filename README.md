@@ -1,16 +1,56 @@
-# music_app
+# Music App
 
-A new Flutter project.
+## Giới thiệu
+Đây là một dự án Flutter dùng để phát triển ứng dụng nghe nhạc.
 
-## Getting Started
+## Cách chạy dự án Flutter
 
-This project is a starting point for a Flutter application.
+### Yêu cầu
+Trước khi chạy dự án, hãy đảm bảo bạn đã cài đặt:
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- Android Studio hoặc Visual Studio Code
+- Thiết bị ảo (AVD) hoặc thiết bị thật
+- Dart
 
-A few resources to get you started if this is your first Flutter project:
+### Các bước thực hiện
+1. **Clone dự án**
+   ```sh
+   git clone https://github.com/your-repo/music_app.git
+   cd music_app
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. **Cài đặt dependencies**
+   ```sh
+   flutter pub get
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. **Chạy ứng dụng**
+   - Chạy trên thiết bị thật hoặc giả lập:
+     ```sh
+     flutter run
+     ```
+   - Chạy trên nền tảng cụ thể:
+     ```sh
+     flutter run -d android   # Chạy trên Android
+     flutter run -d ios       # Chạy trên iOS (chỉ MacOS)
+     ```
+
+4. **Build APK hoặc IPA**
+   - Build APK:
+     ```sh
+     flutter build apk
+     ```
+   - Build IPA (chỉ MacOS):
+     ```sh
+     flutter build ios
+     ```
+- Để kiểm tra thiết bị kết nối:
+  ```sh
+  flutter devices
+  ```
+- Để kiểm tra môi trường phát triển Flutter:
+  ```sh
+  flutter doctor
+  ```
+
+
